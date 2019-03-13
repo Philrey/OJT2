@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\Phil Rey\Documents\NetBeansProjects\OJT2\dist\OJT2.jar</jar>
+  <outfile>C:\Users\Phil Rey\Documents\NetBeansProjects\OJT2\dist\test.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon></icon>
+  <singleInstance>
+    <mutexName>asdada</mutexName>
+    <windowTitle>dadas</windowTitle>
+  </singleInstance>
+  <classPath>
+    <mainClass>ojt2.MainApp</mainClass>
+    <cp>lib/swing-layout-1.0.4.jar</cp>
+    <cp>lib/mysql-connector-java-5.1.44-bin.jar</cp>
+    <cp>lib/AbsoluteLayout.jar</cp>
+    <cp>lib/AnimatonClass.jar</cp>
+    <cp>lib/dist/</cp>
+    <cp>lib/com.android.volley-2015.05.28.jar</cp>
+    <cp>lib/mysql-connector-java-5.1.23-bin.jar</cp>
+    <cp>lib/java-json.jar</cp>
+  </classPath>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.0.0</minVersion>
+    <maxVersion>9.9.9</maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+</launch4jConfig>
